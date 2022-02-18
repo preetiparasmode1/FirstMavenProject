@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3040" started-at="2022-02-15T10:32:45Z" finished-at="2022-02-15T10:32:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3040" started-at="2022-02-15T10:32:45Z" finished-at="2022-02-15T10:32:48Z">
+      <class name="com.test.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.LoginTest@25a65b77]" name="setUp" is-config="true" duration-ms="4893" started-at="2022-02-15T10:32:40Z" finished-at="2022-02-15T10:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHeader()[pri:0, instance:com.test.LoginTest@25a65b77]" name="verifyHeader" duration-ms="2338" started-at="2022-02-15T10:32:45Z" finished-at="2022-02-15T10:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeader -->
+        <test-method status="PASS" signature="verifyUserClick()[pri:0, instance:com.test.LoginTest@25a65b77]" name="verifyUserClick" duration-ms="644" started-at="2022-02-15T10:32:48Z" finished-at="2022-02-15T10:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserClick -->
+      </class> <!-- com.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
