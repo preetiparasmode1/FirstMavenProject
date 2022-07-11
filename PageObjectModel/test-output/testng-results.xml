@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3040" started-at="2022-02-15T10:32:45Z" finished-at="2022-02-15T10:32:48Z">
+  <suite name="Default suite" duration-ms="8060" started-at="2022-03-05T22:45:07 IST" finished-at="2022-03-05T22:45:15 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3040" started-at="2022-02-15T10:32:45Z" finished-at="2022-02-15T10:32:48Z">
+    <test name="Default test" duration-ms="8060" started-at="2022-03-05T22:45:07 IST" finished-at="2022-03-05T22:45:15 IST">
       <class name="com.test.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.LoginTest@25a65b77]" name="setUp" is-config="true" duration-ms="4893" started-at="2022-02-15T10:32:40Z" finished-at="2022-02-15T10:32:45Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.LoginTest@305fd85d]" name="setUp" duration-ms="8016" started-at="2022-03-05T22:45:07 IST" finished-at="2022-03-05T22:45:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHeader()[pri:0, instance:com.test.LoginTest@25a65b77]" name="verifyHeader" duration-ms="2338" started-at="2022-02-15T10:32:45Z" finished-at="2022-02-15T10:32:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHeader -->
-        <test-method status="PASS" signature="verifyUserClick()[pri:0, instance:com.test.LoginTest@25a65b77]" name="verifyUserClick" duration-ms="644" started-at="2022-02-15T10:32:48Z" finished-at="2022-02-15T10:32:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserClick -->
       </class> <!-- com.test.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

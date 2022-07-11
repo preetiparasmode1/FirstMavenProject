@@ -6,33 +6,45 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
-          WebDriver lpdriver=null;
-          
-  public LoginPage(WebDriver driver ) {
-	 this.lpdriver= driver; 
-	 PageFactory.initElements(driver,this);
-   }
+WebDriver lpdriver;
+
+
+public LoginPage(WebDriver driver) {
+	this.lpdriver=driver;
+	PageFactory.initElements(driver,this);
+}
 	@FindBy(id="email")
-	WebElement uname ;
+	WebElement username;
 	
 	@FindBy(id="password")
-	WebElement pass ;
+	WebElement password;
 	
-	@FindBy(xpath="//button" )
+	@FindBy(xpath="//button")
 	WebElement loginBtn;
 	
-	public void loginToApp(String username, String password) {
-		uname.sendKeys(username);
-		pass.sendKeys(password);
+	@FindBy(partialLinkText = "RegisterPage")
+	WebElement link;
+	
+	public void loginToApp(String uname,String pass) {
+		username.sendKeys(uname);
+		password.sendKeys(pass);
 		loginBtn.click();
-		
 		
 	}
 	public DashboardPage validLogin() {
-		uname.sendKeys("kiran@gmail.com");
-		pass.sendKeys("123456");
+		username.sendKeys("kiran@gmail.com");
+		password.sendKeys("123456");
 		loginBtn.click();
 		return new DashboardPage(lpdriver);
 	}
+	
+	public RegisterPage clickRegister() {
+		link.click();
+	
+	  return new RegisterPage();
+
 }
+}
+
+	
 
